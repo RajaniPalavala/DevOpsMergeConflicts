@@ -3,7 +3,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        System.out.println("Sum of user input is "+sumOf(5,7, 3));
+        System.out.println("Sum of user input is "+sumOf(5,7));
     }
 
     /**
@@ -15,7 +15,6 @@ public class Main {
      * @return the sum of {@code a}, {@code b}, and {@code c}
      */
     public static int sumOf(int a, int b, int c){
-        int d = a + b + c;
-        return d;
+        return a + b + c;
     }
 }
